@@ -95,7 +95,7 @@ def kotlin_version = getExtOrDefault("kotlinVersion")
 dependencies {
   implementation "com.facebook.react:react-android"
   implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-  implementation 'io.github.maitrungduc1410:ffmpeg-kit-' + getPackageNameOrDefault() +':' + getPackageVersionOrDefault()
+  implementation 'com.mrljdx:ffmpeg-kit-full:6.1.4'
 }
 
 if (isNewArchitectureEnabled()) {
